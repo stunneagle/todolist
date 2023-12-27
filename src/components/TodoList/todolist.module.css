@@ -1,0 +1,139 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.todo-list{
+   margin: 0; 
+}
+.todo-list-task-add{
+    width: 550px;
+    display: flex;
+    height: 60px;
+    
+    padding: 15px;
+}
+.todo-list-task-add input{
+    border: none;
+    border-bottom: 2px solid var(--todo-color);
+    width: 300px;
+    height: 100%;
+    margin: 5px;
+    font-size: 18px;
+    color: var(--todo-color);
+    
+}
+
+.todo-list-task-add input::placeholder{
+    color: var(--todo-color);
+}
+.todo-list-task-add button{
+    width: 100px;
+    height: 100%;
+    background-color: var(--todo-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+
+}
+.todo-list-task-option{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 2px solid var(--todo-color);
+    overflow: hidden;
+}
+.todo-list-task-option select{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.todo-list-tasks{
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.todo-list-tasks button{
+    font-size: 20px;
+    margin: 5px;
+}
+.todo-edit{
+    width: 100%;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid var(--todo-color);
+  
+}
+
+.todo-save{
+    
+    margin: 5px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.todo-save i{
+    font-size: 25px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.completed-task {
+    text-decoration: line-through;
+  }
+  
+.custom-checkbox {
+    width: 20px; /* Adjust the size as needed */
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--todo-color); /* Set the border color */
+    display: inline-block;
+    cursor: pointer; /* Add this to make it look clickable */
+  }
+  
+  /* Style for checked state */
+  input[type="checkbox"]:checked + label.custom-checkbox {
+    background-color: var(--todo-color); /* Set the background color for checked state */
+    border-color: var(--todo-color); /* Set the border color for checked state */
+  }
+  .custom-checkbox-wrapper {
+    position: relative;
+    
+  }
+  
+  .custom-checkbox-wrapper input[type="checkbox"] {
+    position: absolute;
+    left: -9999px; /* Move the default checkbox out of the visible area */
+  }
+  
+  .space-between{
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+   
+  }
+
+  .flex em{
+    margin: 5px;
+    text-transform: capitalize;
+    font-size: 16px;
+  }
+
+
