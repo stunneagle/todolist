@@ -36,7 +36,7 @@
   text-align: center;
   overflow-y: auto;
   border-radius: 20px;
-  background-color: transparent;
+  background-color: color-mix(in srgb, transparent , black 40%);
   color: black;
   border: 1px solid black;
   overflow-x: hidden;
