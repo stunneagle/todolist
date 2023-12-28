@@ -36,8 +36,9 @@ function App() {
         </div>  
         <div className={styles["todo-bg"]}>   
         <TodoList /> 
-        <span className={styles["copyright"]}>&copy;2024 stunneagle &middot; Nottingham</span>
+        
       </div>
+      <span className={styles["copyright"]}>&copy;2024 stunneagle &middot; Nottingham</span>
 
         </div>
       

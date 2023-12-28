@@ -57,13 +57,15 @@ ul{
 .todo-list-tasks{
     width: 100%;
     text-align: left;
-    padding: 15px;
+    padding: 3px;
     padding-bottom: 20px;
     font-size: 20px;
 }
 .todo-list-tasks button{
     font-size: 20px;
     margin: 5px;
+    margin-left: 0;
+    display: inline-block;
 }
 .todo-edit{
     width: 100%;
@@ -100,6 +102,7 @@ ul{
     border: 2px solid var(--todo-color); /* Set the border color */
     display: inline-block;
     cursor: pointer; /* Add this to make it look clickable */
+    min-width: 5%;
   }
   
   /* Style for checked state */
@@ -126,6 +129,8 @@ ul{
     justify-content: center;
     align-items: center;
     margin: 5px;
+    margin-right: 0;
+    max-width: 75%;
    
   }
 
@@ -133,6 +138,16 @@ ul{
     margin: 5px;
     text-transform: capitalize;
     font-size: 16px;
+    max-width: 90%;
+    word-wrap: break-word;
   }
+.task-button{
+  min-width: 15%;
+  margin-right: 0;
+  padding-right: 0;
+  font-size: 20px;
+    margin: 5px;
+    margin-left: 0;
 
+}
 

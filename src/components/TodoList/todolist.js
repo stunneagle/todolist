@@ -130,7 +130,7 @@ class TodoList extends React.Component{
 </div>
         
 
-<div>
+<div className={styles["task-button"]}>
 
        
         <button onClick={() => this.handleEditTask(index)}><i class="fa fa-pencil-square-o green" aria-hidden="true"></i></button>
