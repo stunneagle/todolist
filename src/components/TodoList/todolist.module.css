@@ -8,16 +8,15 @@ ul{
    margin: 0; 
 }
 .todo-list-task-add{
-    width: 550px;
+    width: 100%;
     display: flex;
-    height: 60px;
-    
+    height: 70px;
     padding: 15px;
 }
 .todo-list-task-add input{
     border: none;
     border-bottom: 2px solid var(--todo-color);
-    width: 300px;
+    width: 80%;
     height: 100%;
     margin: 5px;
     font-size: 18px;
