@@ -20,7 +20,7 @@ const CurrentDateComponent = () => {
 
 function App() {
   return (
-       <div className="" > 
+       <div className={styles["todo-boss"]} > 
         
         <div className={styles["todo"]}>
         <img src={logo} className={`${styles["App-logo"]} ${styles.img}` } alt="logo" />
@@ -38,10 +38,10 @@ function App() {
         <TodoList /> 
         
       </div>
-      <span className={styles["copyright"]}>&copy;2024 stunneagle &middot; Nottingham</span>
-
-        </div>
       
+        </div>
+        <span className={styles["copyright"]}>&copy;2024 stunneagle &middot; Nottingham</span>
+
         
 
         

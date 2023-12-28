@@ -66,6 +66,9 @@ ul{
     margin: 5px;
     margin-left: 0;
     display: inline-block;
+    background-color: white;
+    border: none;
+    cursor: pointer;
 }
 .todo-edit{
     width: 100%;
@@ -129,8 +132,8 @@ ul{
     justify-content: center;
     align-items: center;
     margin: 5px;
-    margin-right: 0;
-    max-width: 75%;
+    margin-left: 0;
+    max-width: 70%;
    
   }
 
@@ -138,16 +141,15 @@ ul{
     margin: 5px;
     text-transform: capitalize;
     font-size: 16px;
-    max-width: 90%;
+    max-width: 87%;
     word-wrap: break-word;
   }
 .task-button{
   min-width: 15%;
-  margin-right: 0;
   padding-right: 0;
   font-size: 20px;
-    margin: 5px;
-    margin-left: 0;
+  margin: 5px 0;
+   
 
 }
 

@@ -28,6 +28,7 @@
 
 .todo{
   min-height: 550px;
+  max-height: 90%;
   width: 450px;
   position: absolute;
   top: 50%;
@@ -81,6 +82,7 @@
   margin-top: 10px;
   z-index: 1000;
   color: black;
+  background-color: white;
 }
 
 
@@ -89,6 +91,11 @@
   .todo{
     color: white;
   border: 1px solid white;
+  
+  }
+  .copyright{
+    color: white;
+    background-color: black;
   }
   
 }
@@ -100,5 +107,11 @@
     border: 1px solid white;
     width: 90%;
   }
-  
+  .todo-boss{
+    background-color: white;
+  }
+  .copyright{
+    color: white;
+    background-color: black;
+  }
 }
