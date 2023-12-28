@@ -63,12 +63,24 @@ ul{
 }
 .todo-list-tasks button{
     font-size: 20px;
-    margin: 5px;
-    margin-left: 0;
+    margin: 5px 0;
     display: inline-block;
     background-color: white;
     border: none;
     cursor: pointer;
+    padding: 0;
+}
+
+.todo-list-tasks button:nth-child(1){
+  margin-right: 10px;
+}
+.task-button{
+  min-width: 12%;
+  padding-right: 0;
+  font-size: 20px;
+  margin: 5px 0;
+   
+
 }
 .todo-edit{
     width: 100%;
@@ -144,12 +156,9 @@ ul{
     max-width: 87%;
     word-wrap: break-word;
   }
-.task-button{
-  min-width: 15%;
-  padding-right: 0;
-  font-size: 20px;
-  margin: 5px 0;
-   
 
+
+@media screen and (max-width: 500px) {
+ 
 }
 
